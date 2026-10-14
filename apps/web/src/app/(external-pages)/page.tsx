@@ -1,39 +1,39 @@
 import { Separator } from '@/components/ui/separator';
-import { ArrowRight, Database, Lock, Palette, Shield, Zap } from 'lucide-react';
+import { Activity, BarChart3, Globe2, Radio, Table2, Zap } from 'lucide-react';
 import { HomeCTA } from './home-cta';
 import { HomeFeatures, type HomeFeature } from './home-features';
 import { HomeHero } from './home-hero';
 
 const features: HomeFeature[] = [
   {
-    icon: Shield,
-    title: 'Type-Safe',
-    description: 'End-to-end TypeScript with auto-generated Supabase types. Catch errors at compile time.',
+    icon: Radio,
+    title: 'Real-Time Updates',
+    description: 'New sales stream into the dashboard instantly via Supabase Realtime — no refresh needed.',
+  },
+  {
+    icon: BarChart3,
+    title: 'Revenue Analytics',
+    description: 'Revenue trends, category breakdowns, top products, and regional performance at a glance.',
+  },
+  {
+    icon: Activity,
+    title: 'Live Activity Feed',
+    description: 'Watch every order land the second it happens, with a live event stream.',
+  },
+  {
+    icon: Table2,
+    title: 'KPI Tracking',
+    description: 'Revenue, orders, average order value, and conversion rate with period-over-period change.',
+  },
+  {
+    icon: Globe2,
+    title: 'Regional Insights',
+    description: 'See exactly where your revenue comes from across every region.',
   },
   {
     icon: Zap,
-    title: 'Modern Stack',
-    description: 'Next.js 16, TypeScript, Supabase, and Tailwind CSS — the best tools for modern web development.',
-  },
-  {
-    icon: Palette,
-    title: 'UI Components',
-    description: 'Beautiful components built with Radix UI and Tailwind. Accessible and customizable.',
-  },
-  {
-    icon: Lock,
-    title: 'Authentication',
-    description: 'Magic links, OAuth providers, and email/password with protected routes — all pre-configured.',
-  },
-  {
-    icon: Database,
-    title: 'Database Ready',
-    description: 'Supabase with Row Level Security, migrations, and seed data — ready for production.',
-  },
-  {
-    icon: ArrowRight,
-    title: 'Fast Deployment',
-    description: 'Deploy to Vercel in minutes. CI/CD, preview deployments, and automatic type generation included.',
+    title: 'Postgres-Powered',
+    description: 'Next.js 16, Supabase Postgres, and Row Level Security — fast and production-ready.',
   },
 ];
 

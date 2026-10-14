@@ -7,7 +7,7 @@ import {
   EmptyMedia,
   EmptyTitle,
 } from '@/components/ui/empty';
-import { Github, Rocket } from 'lucide-react';
+import { Rocket } from 'lucide-react';
 import Link from 'next/link';
 
 export function AboutCTA() {
@@ -29,12 +29,8 @@ export function AboutCTA() {
             <Link href="/sign-up">Start Building</Link>
           </Button>
           <Button size="lg" variant="outline" asChild>
-            <Link
-              href="https://github.com/imbhargav5/nextbase-nextjs-supabase-starter"
-              target="_blank"
-            >
-              <Github className="mr-2 h-5 w-5" />
-              Star on GitHub
+            <Link href="/live-dashboard">
+              View live dashboard
             </Link>
           </Button>
         </div>

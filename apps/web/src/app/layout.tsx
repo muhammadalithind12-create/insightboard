@@ -24,8 +24,8 @@ const robotoMono = localFont({
 });
 
 export const metadata = {
-  title: 'Nextbase Open source starter',
-  description: 'Built with Next.js, Supabase, and Tailwind CSS',
+  title: 'InsightBoard — Real-Time Business Analytics',
+  description: 'Live revenue, orders, and conversion analytics powered by Next.js and Supabase Realtime',
 };
 
 export default async function RootLayout({ children }: { children: React.ReactNode }) {

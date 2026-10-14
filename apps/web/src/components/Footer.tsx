@@ -86,11 +86,10 @@ const Footer = () => {
             <T.H4 className="text-sm font-semibold uppercase">Resources</T.H4>
             <nav className="flex flex-col space-y-2.5">
               <Link
-                href="https://usenextbase.com"
-                target="_blank"
+                href="/"
                 className="text-sm text-muted-foreground hover:text-foreground transition-colors"
               >
-                NextBase
+                InsightBoard
               </Link>
             </nav>
           </div>
@@ -138,13 +137,12 @@ const Footer = () => {
 
         <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
           <T.Small className="text-muted-foreground">
-            © 2023{' '}
+            © 2026{' '}
             <Link
-              href="https://usenextbase.com"
-              target="_blank"
+              href="/"
               className="hover:text-foreground transition-colors"
             >
-              Arni Creative Private Limited
+              InsightBoard
             </Link>
             . All Rights Reserved.
           </T.Small>
